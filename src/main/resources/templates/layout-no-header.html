@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html th:attr="lang=${lang}">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" th:href="@{/css/listadoalumnos.css?version=20230701001}"/>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}"/>
+    <link rel="shortcut icon" th:href="@{/img/favicon.ico}" type="image/x-icon"/>
+    <meta content="width=device-width; initial-scale=1.0; minimum-scale=1.0; target-densityDpi=device-dpi"
+          name="viewport"/>
+    <title data-th-text="#{label.studentlist}"></title>
+</head>
+
+<body class="container">
+<!--Cabecera-->
+<header>
+    <div class="row">
+        <div class="col-md-12 m-top-2y">
+            <h1 class="ruler ruler--primary" data-th-text="#{label.studentlist}">Student List</h1>
+        </div>
+    </div>
+</header>
+<main>
+    <div data-layout-fragment="content"></div>
+</main>
+
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<script th:src="@{/js/jquery-1.11.1.min.js}"></script>
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    /*]]>*/
+</script>
+<script data-layout-fragment="script"></script>
+</body>
+
+</html>

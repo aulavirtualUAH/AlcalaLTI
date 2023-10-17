@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "lti.basic",
+      "type": "es.uah.lti.ltiformacion.controllers.HealthController",
+      "sourceType": "es.uah.lti.ltiformacion.controllers.HealthController"
+    },
+    {
+      "name": "tools",
+      "type": "es.uah.lti.ltiformacion.config.ToolsConfig",
+      "sourceType": "es.uah.lti.ltiformacion.config.ToolsConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "lti.basic.registration-bean",
+      "type": "java.util.List<edu.uoc.elc.spring.lti.tool.registration.RegistrationBean>",
+      "sourceType": "es.uah.lti.ltiformacion.controllers.HealthController"
+    },
+    {
+      "name": "tools.tool-config",
+      "type": "java.util.Map<java.lang.String,es.uah.lti.ltiformacion.beans.LmsTool>",
+      "sourceType": "es.uah.lti.ltiformacion.config.ToolsConfig"
+    }
+  ],
+  "hints": []
+}

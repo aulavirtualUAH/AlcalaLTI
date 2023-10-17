@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html data-layout-decorate="~{layout-no-header}">
+<div data-layout-fragment="content" data-th-object="${object}">
+    <h1>LTI Resource Link Launch</h1>
+    <h2>Main data</h2>
+    <ul class="list-group">
+        <li class="list-group-item">Fullname: <span data-th-text="*{user.fullName}"></span></li>
+        <li class="list-group-item">Locale: <span data-th-text="*{user.locale}"></span></li>
+        <li class="list-group-item">Context Id: <span data-th-text="*{context.id}"></span></li>
+        <li class="list-group-item">Context Title: <span data-th-text="*{context.title}"></span></li>
+        <li class="list-group-item">
+            <span data-th-unless="*{namesRoleService.available}" aria-hidden="true" class="icon icon--checkbox-off icon--small"></span>
+            <span data-th-if="*{namesRoleService.available}" aria-hidden="true" class="icon icon--checkbox-on icon--small"></span>
+            NamesRoleService
+        </li>
+        <li class="list-group-item" data-th-if="*{agsService.available}">
+            <span aria-hidden="true" class="icon icon--checkbox-on icon--small"></span>
+            <a data-th-href="@{/ags}">Assignments and Grades Service<span aria-hidden="true" class="icon icon--external-link icon--small icon--after"></span></a>
+        </li>
+        <li class="list-group-item" data-th-unless="*{agsService.available}">
+            <span aria-hidden="true" class="icon icon--checkbox-off icon--small"></span>
+            Assignments and Grades Service
+        </li>
+    </ul>
+    <div data-th-if="*{roles}" data-th-remove="tag">
+        <h2>Roles</h2>
+        <ul class="list-group">
+            <li class="list-group-item" data-th-each="role: *{roles}" data-th-text="${role}">/li>
+        </ul>
+    </div>
+    <div class="row" data-th-unless="*{#lists.isEmpty(namesRoleService.members)}">
+        <h2>Members</h2>
+        <div data-th-each="member: *{namesRoleService.members}" data-th-aria-label="${member.name}" class="card" role="region">
+            <div class="card__header">
+                <h2 class="ruler ruler--primary" data-th-text="${member.name}"></h2>
+            </div>
+            <div class="card__contents">
+                <p><span class="icon icon--contact icon--small icon--before" data-th-text="${member.email}"></span></p>
+                <h3>Roles</h3>
+                <ul class="list-group">
+                    <li class="list-group-item" data-th-each="role: ${member.roles}" data-th-text="${role}">/li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row" data-th-unless="*{#lists.isEmpty(agsService.lineItems)}">
+        <h2>Line Items</h2>
+        <div data-th-each="lineItem: *{agsService.lineItems}" data-th-aria-label="${lineItem.label}" class="card" role="region">
+            <div class="card__header">
+                <h2 class="ruler ruler--primary" data-th-text="${lineItem.label}"></h2>
+            </div>
+            <div class="card__contents">
+                <p><em>ID:</em><span data-th-text="${lineItem.id}"></span></p>
+                <p><em>Maximum score:</em><span data-th-text="${lineItem.scoreMaximum}"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

@@ -1,0 +1,64 @@
+lti:
+  #  basic:
+  #    registration:
+  #      id: 1
+  #      client-id: 186670000000000104
+  #      platform: https://canvas.test.instructure.com
+  #      key-set-url: https://uoc.test.instructure.com/api/lti/security/jwks
+  #      access-token-url: https://uoc.test.instructure.com/login/oauth2/token
+  #      oidc-auth-url: https://uoc.test.instructure.com/api/lti/authorize_redirect
+  #      deployments:
+  #        - deployment-id: 113:83fdf12371612a1225c2112f6e1f8cf471b8e23b
+  #        - deployment-id: 1851:83fdf12371612a1225c2112f6e1f8cf471b8e23b
+  #      keySet:
+  #        id: default
+  #        keys:
+  #          - id: 1
+  #            algorithm: RSA
+  #            public-key: MIIEpQIBAAKCAQEAwDN0DFZnsxETm+lzQh7dsbBX6srNGqQ+Ougc485pqys81TzjoWDsubj70NdTge8DO3ycJbPpDsTH5P1Ea+vCHq/h1SzFLLF0yLw5Y2sWrLlDF9PrvR9yApu0bZ3zNTl55B4EblYns3j3JydwfnnLuNeNVpwv7wosLZKhMvg9CQv39prJj8xI+l5FoRkhKS86tl5PrU4Xld+jBo84GWAx0SYxbGF/vR9ve9lnErNWLv8ozYC2J9FusberZrsZ8M0mpNR1vJMayqDIwMPX5rsKtWZJh33XwAKRsEIxWT0WUGM54SUc0jrszapXfOoznblwmcAd/MVLXOlgOoaeiQbxFwIDAQABAoIBAQCV6UwRt29I1v/xcuPoZcTLLF1Wj/nsVsEHFzY5ZS08Sgw30jdGDyB1N9iJqvnCddeSlX4BVlNopom3jOfKOWf+oXbG3BWq53rMeytT5RoZfKLdOfk8WQOHD0Vq3nDtSbhN+i/Ak8iBjs9Ppc5zh7IjqVTfghFNJCUTIrRC2iZZH7b+deK4vWd6GnIubftHs3H/worivZFPXm+qG0+mSLo9DdxuySQmG0KwwJOz/RwW7oKME0Y05+eUA0E2EUODEzf/iTBsnZxDJ1PVuJvWiSl4uDh167G4mnscPiLYcDc4xJ4rmr+mDoekWMn70iNzW4xLZQaLMLy/RtKoclFVDQZxAoGBAOxQJOm96wBVT+zfaO/gork6DwOFxdf765C8sNsRSwygzrh03UYbO0bFwi2r2/bBXvyt69DGxKapUhDH0z5inVjsZwHAdrHAGpf+jA9smumsJI25/AXmp9piHSx1SI5AjygViCETSD6ItWhTbEBJn0rwhAs+f8hFGymwF11T4HH/AoGBANA2h5O7vlYGHmgEVyol/oRiXrggx2z0iVkn3RUhzWqXqedaQjp8zyA+FG/7fPsYah9R1sgKZ2aey+npo7RKQgmsgJWTQsXq+Fcvivw1z0xIJ8AmK4lhTHlw/B9TT3cxzy1IqAUfP4luJXnsiZ45G78XD6Q5Ftd8Fxn+PhDq4NDpAoGBAIClyNKvH6ZYy2Aq59ffNPcdklrakrBYZw+uiaFZMsA3MxLcHDI0VPrcYi+25dLZxrpMfJp1+0y31QNppajKytpEKHedrYBrEo84dktXVqZrnqLBY2BbB3ot+6/eUZePsd+iiS9obeYNSqT29XGyItQLR/dPGQWQCY+SW8XlCcVFAoGBAMOP5AmDVkPQHXEPWptQ8lx/VH3W89jHWdXulj2J8TlD2CZfZUMwBQ9An8uKR5pEFTDzmitrcjE1x0sd0k+9S4dwiZlzpkzk5HpnQkCffeQlBYj5kPzI8Z5C29vEUSggFXpv+rhM4E2BshtxatS8yO3TiDJ0GJsuhzg3zy3unlg5AoGAZv9YjAoQdxrRl1AiWntZm8BXxXwXEVEG2Wbr9a6+OPiaQXgpk11nf2QnEPmFZ2vFSC6YWEba34qs3kNBg5hp0ttHNyzwNxL7B+4sRoN08lVtOYUOGeqg3yGkdQCxW4RMiAL37+01rrbSGUxieWjP3V4y5gP2//mnlan/s4lbkOc=
+  #            private-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwDN0DFZnsxETm+lzQh7dsbBX6srNGqQ+Ougc485pqys81TzjoWDsubj70NdTge8DO3ycJbPpDsTH5P1Ea+vCHq/h1SzFLLF0yLw5Y2sWrLlDF9PrvR9yApu0bZ3zNTl55B4EblYns3j3JydwfnnLuNeNVpwv7wosLZKhMvg9CQv39prJj8xI+l5FoRkhKS86tl5PrU4Xld+jBo84GWAx0SYxbGF/vR9ve9lnErNWLv8ozYC2J9FusberZrsZ8M0mpNR1vJMayqDIwMPX5rsKtWZJh33XwAKRsEIxWT0WUGM54SUc0jrszapXfOoznblwmcAd/MVLXOlgOoaeiQbxFwIDAQAB
+
+
+
+
+  registrations:
+    - registration:
+      id: 1
+      name:
+      client-id: 34c932d8-ec86-44c1-8efe-d14b60fd6119
+      platform: https://blackboard.com
+      key-set-url: https://developer.blackboard.com/.well-known/jwks.json
+      access-token-url: https://developer.blackboard.com/api/v1/gateway/oauth2/jwttoken
+      oidc-auth-url: https://developer.blackboard.com/api/v1/gateway/oidcauth
+      deployments:
+        - deployment-id: 3694:83fdf12371612a1225c2112f6e1f8cf471b8e23b
+      keySet:
+        id: default
+        keys:
+          - id: 1
+            algorithm: RSA
+            public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwDN0DFZnsxETm+lzQh7dsbBX6srNGqQ+Ougc485pqys81TzjoWDsubj70NdTge8DO3ycJbPpDsTH5P1Ea+vCHq/h1SzFLLF0yLw5Y2sWrLlDF9PrvR9yApu0bZ3zNTl55B4EblYns3j3JydwfnnLuNeNVpwv7wosLZKhMvg9CQv39prJj8xI+l5FoRkhKS86tl5PrU4Xld+jBo84GWAx0SYxbGF/vR9ve9lnErNWLv8ozYC2J9FusberZrsZ8M0mpNR1vJMayqDIwMPX5rsKtWZJh33XwAKRsEIxWT0WUGM54SUc0jrszapXfOoznblwmcAd/MVLXOlgOoaeiQbxFwIDAQAB
+            private-key: MIIEpQIBAAKCAQEAwDN0DFZnsxETm+lzQh7dsbBX6srNGqQ+Ougc485pqys81TzjoWDsubj70NdTge8DO3ycJbPpDsTH5P1Ea+vCHq/h1SzFLLF0yLw5Y2sWrLlDF9PrvR9yApu0bZ3zNTl55B4EblYns3j3JydwfnnLuNeNVpwv7wosLZKhMvg9CQv39prJj8xI+l5FoRkhKS86tl5PrU4Xld+jBo84GWAx0SYxbGF/vR9ve9lnErNWLv8ozYC2J9FusberZrsZ8M0mpNR1vJMayqDIwMPX5rsKtWZJh33XwAKRsEIxWT0WUGM54SUc0jrszapXfOoznblwmcAd/MVLXOlgOoaeiQbxFwIDAQABAoIBAQCV6UwRt29I1v/xcuPoZcTLLF1Wj/nsVsEHFzY5ZS08Sgw30jdGDyB1N9iJqvnCddeSlX4BVlNopom3jOfKOWf+oXbG3BWq53rMeytT5RoZfKLdOfk8WQOHD0Vq3nDtSbhN+i/Ak8iBjs9Ppc5zh7IjqVTfghFNJCUTIrRC2iZZH7b+deK4vWd6GnIubftHs3H/worivZFPXm+qG0+mSLo9DdxuySQmG0KwwJOz/RwW7oKME0Y05+eUA0E2EUODEzf/iTBsnZxDJ1PVuJvWiSl4uDh167G4mnscPiLYcDc4xJ4rmr+mDoekWMn70iNzW4xLZQaLMLy/RtKoclFVDQZxAoGBAOxQJOm96wBVT+zfaO/gork6DwOFxdf765C8sNsRSwygzrh03UYbO0bFwi2r2/bBXvyt69DGxKapUhDH0z5inVjsZwHAdrHAGpf+jA9smumsJI25/AXmp9piHSx1SI5AjygViCETSD6ItWhTbEBJn0rwhAs+f8hFGymwF11T4HH/AoGBANA2h5O7vlYGHmgEVyol/oRiXrggx2z0iVkn3RUhzWqXqedaQjp8zyA+FG/7fPsYah9R1sgKZ2aey+npo7RKQgmsgJWTQsXq+Fcvivw1z0xIJ8AmK4lhTHlw/B9TT3cxzy1IqAUfP4luJXnsiZ45G78XD6Q5Ftd8Fxn+PhDq4NDpAoGBAIClyNKvH6ZYy2Aq59ffNPcdklrakrBYZw+uiaFZMsA3MxLcHDI0VPrcYi+25dLZxrpMfJp1+0y31QNppajKytpEKHedrYBrEo84dktXVqZrnqLBY2BbB3ot+6/eUZePsd+iiS9obeYNSqT29XGyItQLR/dPGQWQCY+SW8XlCcVFAoGBAMOP5AmDVkPQHXEPWptQ8lx/VH3W89jHWdXulj2J8TlD2CZfZUMwBQ9An8uKR5pEFTDzmitrcjE1x0sd0k+9S4dwiZlzpkzk5HpnQkCffeQlBYj5kPzI8Z5C29vEUSggFXpv+rhM4E2BshtxatS8yO3TiDJ0GJsuhzg3zy3unlg5AoGAZv9YjAoQdxrRl1AiWntZm8BXxXwXEVEG2Wbr9a6+OPiaQXgpk11nf2QnEPmFZ2vFSC6YWEba34qs3kNBg5hp0ttHNyzwNxL7B+4sRoN08lVtOYUOGeqg3yGkdQCxW4RMiAL37+01rrbSGUxieWjP3V4y5gP2//mnlan/s4lbkOc=
+
+server:
+  servlet:
+    context-path: /
+    session:
+      cookie:
+        secure: false
+
+  error:
+    whitelabel:
+      enabled: false
+spring:
+  session:
+    store-type: none
+
+pd:
+  platin:
+    username: pdlti
+    password: VobAUpU52$p#)R^5
+
+  host: http://localhost:8080
+  api:
+    url: https://bucket-pdlti-dev-fargate.s3.eu-west-1.amazonaws.com/pdf_A_20221_80.520_undefined.pdf?AWSAccessKeyId=ASIAV7WLZFTGUEFPDFLS&Expires=1652246459&Signature=ekF8Fd9%2B8SirTLswtLjELNH6FKk%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEE0aCWV1LXdlc3QtMSJHMEUCIQCDdzoN0WigkJG8GXmXxvfJg5GCrC7prA3efTwOunI%2BpwIgX5F03nbevjinBpetvSUaYW48%2FR4%2BnlpFFG%2Fut3Jv%2F%2FgqngIIJhACGgw0MTE2NzA0OTAzMTciDKfDiZsAx4TbpBRueir7AYZwxugSiLnChK8q%2F8tiIiFIMh%2BeoYEuThLUqeFIZg9F9sTQYQxx6JhvSVYkOs6nesaKc3GIDWq6JOxVq%2BPIsoZk6sKR70vM1st9bt%2FeDjK8kn0d2vNtwUGCbXTQMbYP6UmdV8MuwcFsOeRRt4sBeDMafhewkq5Xa%2BbYAq8mIGnqVRGKMRJWJx5B6oy%2F9Oqa1kT736vjplyITR0XvWqzQ7lbcFAaCEhfoY%2FQy15FvbSnj4JeuPgf4bGL8zOntYtnRm6%2B4uzcJavHGCIPmYbZoKQZ30FRi%2BJGZwuh6owEKhpBmvNy94m0Fjc3Br%2Bl%2FC43ZAeXw3gEfjO2N8RGMOyH7ZMGOpoBSioZk%2Be18XC4uTGB7kJnnic7udRzSH9l83EY9Q806iCNM7uej4etH9spCTKYTLw0pjzoiHwrZGxsAWs3ZDDt0LTSJBMEKJsF48y7IG3QFuu%2BJvqA8pCIJv8KLWqTCjK91o%2Fegw%2F%2B8lh50ulxtdMD6sa%2BP87H24zlmPT8Cl%2BZwyWf2hFl65oXcBTBFWDClOMs0DXH6ALBC1G0jA%3D%3D

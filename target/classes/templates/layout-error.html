@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html th:attr="lang=${lang}">
+
+<head>
+    <title data-th-text="#{error}"></title>
+</head>
+
+<body>
+
+<!-- container -->
+<div id="container">
+    <div class="clearfix" id="main">
+        <div class="clearfix" id="content">
+            <div class="alert-block">
+                <div class="alert-icon"></div>
+                <div class="alert-msg">
+                    <h2 data-th-text="#{error.error}">S'ha produït un error</h2>
+                    <p data-th-text="#{error.retylater}">Si us plau, intenta accedir-hi de nou d'aquí a una estona.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sombra-top"></div>
+</div><!-- /container -->
+</body>
+</html>
+
+
+

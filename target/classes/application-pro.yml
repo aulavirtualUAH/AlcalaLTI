@@ -1,0 +1,55 @@
+#redis:
+#  hostname: ${REDIS_HOST}
+#  port: ${REDIS_PORT}
+
+kms:
+  enabled: false
+
+server:
+  servlet:
+    session:
+      cookie:
+        secure: true
+
+  error:
+    whitelabel:
+      enabled: false
+
+lti:
+  registrations:
+    - registration:
+      id: 1
+      name: ca
+      client-id: ${LMS_CLIENT_ID_CA}
+      platform: ${LMS_PLATFORM}
+      key-set-url: ${LMS_KEY_SET_URL}
+      access-token-url: ${LMS_ACCESS_TOKEN_URL}
+      oidc-auth-url: ${LMS_OIDC_AUTH_URL}
+      deployments:
+        - deployment-id: ${LMS_DEPLOYMENT_ID_CA}
+      keySet:
+        id: default
+        keys:
+          - id: 1
+            algorithm: RSA
+            public-key: ${PUBLICKEY}
+            private-key: ${PRIVATEKEY}
+
+logging:
+  level:
+    root: ${LOGLEVEL}
+
+basic:
+  auth:
+    user: ${NAGIOS_USERNAME}
+    password: ${NAGIOS_PASSWORD}
+
+pd:
+  host: https://${PDLTI_HOSTNAME}
+  api:
+    url: ${API_URL}
+    hostname: https://${LB_HOSTNAME}
+  platin:
+    host: ${PLATIN_URL}
+    username: ${PLATIN_USERNAME}
+    password: ${PLATIN_PASSWORD}
